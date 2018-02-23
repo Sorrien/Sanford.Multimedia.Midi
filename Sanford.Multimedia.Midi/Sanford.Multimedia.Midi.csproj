@@ -1,0 +1,106 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Sanford.Multimedia.Midi\Clocks\IClock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Clocks\MidiInternalClock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Clocks\PpqnClock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Device Classes\InputDevice Class\InputDevice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Device Classes\InputDevice Class\MidiInCaps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Device Classes\MidiDevice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Device Classes\MidiDeviceException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Device Classes\MidiHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Device Classes\MidiHeaderBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Device Classes\OutputDevice Classes\MidiOutCaps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Device Classes\OutputDevice Classes\OutputDevice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\GeneralMidi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\ChannelMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\IMidiMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\Message Builders\ChannelMessageBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\Message Builders\IMessageBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\Message Builders\MetaTextBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\Message Builders\SongPositionPointerBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\Message Builders\SysCommonMessageBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\Message Builders\TempoChangeBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\Message Builders\TimeSignatureBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\MetaMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\ShortMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\SysCommonMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\SysExMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Messages\SysRealtimeMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\MidiNoteConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Sequencing\MidiFileProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Sequencing\Sequence.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Sequencing\Sequencer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Sequencing\Track Classes\TrackReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sanford.Multimedia.Midi\Sequencing\Track Classes\TrackWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
